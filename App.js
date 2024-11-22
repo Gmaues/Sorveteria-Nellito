@@ -12,7 +12,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function App() {
-  const [categorias, setCategorias] = useState(['Picolé', 'Sorvetes', 'Coberturas', 'Cones']);
+  const [categorias, setCategorias] = useState([ 'Sorvetes', 'Coberturas', 'Cones']);
   const [categoriaSelecionada, setCategoriaSelecionada] = useState('');
   const [produto, setProduto] = useState('');
   const [quantidade, setQuantidade] = useState('');
